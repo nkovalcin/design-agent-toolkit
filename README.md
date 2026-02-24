@@ -1,4 +1,4 @@
-# 🎨 Design Agent Toolkit
+# Design Agent Toolkit
 
 [![npm version](https://img.shields.io/npm/v/design-agent-toolkit.svg)](https://www.npmjs.com/package/design-agent-toolkit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,15 +7,28 @@
 
 > AI-powered design assistant using Claude's multi-agent architecture. Get expert UI/UX reviews, accessibility audits, and design system guidance.
 
-## ✨ Features
+## Table of Contents
 
-- **6 Specialized AI Agents** - Each expert in a specific design domain
-- **Comprehensive Frameworks** - 200KB+ of battle-tested UI/UX best practices
-- **Built on Claude Agent SDK** - Leverages Anthropic's official agent framework
-- **CLI & Programmatic API** - Use from terminal or integrate into your workflow
-- **TypeScript First** - Full type safety and great DX
+- [Features](#features)
+- [Available Agents](#available-agents)
+- [Included Frameworks](#included-frameworks)
+- [Quick Start](#quick-start)
+- [Examples](#examples)
+- [Configuration](#configuration)
+- [Advanced Usage](#advanced-usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-## 🤖 Available Agents
+## Features
+
+- **7 Specialized AI Agents** — each expert in a specific design domain
+- **Comprehensive Frameworks** — 200KB+ of battle-tested UI/UX best practices
+- **Built on Claude Agent SDK** — leverages Anthropic's official agent framework
+- **CLI & Programmatic API** — use from terminal or integrate into your workflow
+- **TypeScript First** — full type safety and great DX
+
+## Available Agents
 
 | Agent | Expertise |
 |-------|-----------|
@@ -27,18 +40,18 @@
 | `design-code-reviewer` | Code review for design compliance |
 | `project-strategist` | Project planning, brand strategy |
 
-## 📚 Included Frameworks
+## Included Frameworks
 
 The toolkit includes comprehensive design frameworks covering:
 
-- **UI/UX Best Practices** - Core principles, 8px grid, WCAG accessibility
-- **Advanced UI/UX** - Design tokens, optical corrections, Fitts's Law, Hick's Law
-- **Layout & Media** - CSS Grid, Bento layouts, responsive images, video
-- **Typography** - Modular scale, fluid typography, font loading
-- **Marketing & Conversion** - AIDA, PAS, social proof, persuasion psychology
-- **Project Kickoff** - Discovery, stakeholder alignment, deliverables
+- **UI/UX Best Practices** — core principles, 8px grid, WCAG accessibility
+- **Advanced UI/UX** — design tokens, optical corrections, Fitts's Law, Hick's Law
+- **Layout & Media** — CSS Grid, Bento layouts, responsive images, video
+- **Typography** — modular scale, fluid typography, font loading
+- **Marketing & Conversion** — AIDA, PAS, social proof, persuasion psychology
+- **Project Kickoff** — discovery, stakeholder alignment, deliverables
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -94,7 +107,7 @@ for await (const chunk of streamDesignAgent({
 }
 ```
 
-## 📖 Examples
+## Examples
 
 ### Landing Page Review
 
@@ -137,9 +150,7 @@ await runDesignAgent({
 });
 ```
 
-## ⚙️ Configuration
-
-### Options
+## Configuration
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
@@ -158,7 +169,7 @@ await runDesignAgent({
 ANTHROPIC_API_KEY=sk-ant-...  # Required: Your Anthropic API key
 ```
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Using Specific Agents
 
@@ -185,7 +196,7 @@ await runDesignAgent({
 });
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 design-agent-toolkit/
@@ -211,7 +222,7 @@ design-agent-toolkit/
 └── examples/             # Usage examples
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read our contributing guidelines first.
 
@@ -221,20 +232,6 @@ Contributions are welcome! Please read our contributing guidelines first.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
-MIT © [Norbert Kovalčín](https://nkovalcin.com)
-
----
-
-## 🙏 Acknowledgments
-
-- Built with [Anthropic's Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk)
-- Inspired by years of real-world UI/UX work
-- Thanks to the design systems community
-
----
-
-<p align="center">
-  <strong>Made with 🎨 for the agentic era</strong>
-</p>
+MIT
